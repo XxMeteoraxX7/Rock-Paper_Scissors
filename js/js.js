@@ -48,10 +48,10 @@ function runTheGame() {
     }
   } else if (userInput === 'paper') {
     if (computersAnswer === 'rock') {
-      alert('You lose!');
+      alert('You win!');
       return;
     } else {
-      alert('You win!');
+      alert('You lose!');
       return;
     }
   } else if (userInput === 'scissors') {
