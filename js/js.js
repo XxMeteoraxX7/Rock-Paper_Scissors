@@ -47,11 +47,11 @@ function runTheGame() {
       return;
     }
   } else if (userInput === 'paper') {
-    if (computersAnswer === 'rock') {
-      alert('You win!');
+    if (computersAnswer === 'scissors') {
+      alert('You lose!');
       return;
     } else {
-      alert('You lose!');
+      alert('You win!');
       return;
     }
   } else if (userInput === 'scissors') {
